@@ -1,4 +1,4 @@
-IMAGE = quay.io/operator-framework/tekton-scorecard-image
+IMAGE = quay.io/jemccorm/demo-scorecard-image
 SHELL = /bin/bash
 # set Go builds flags for cross-compilation in case build system is non-Linux
 GO_BUILD_FLAGS = GOOS=linux GOARCH=amd64

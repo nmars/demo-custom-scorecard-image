@@ -1,5 +1,6 @@
 # Base image
-FROM registry.access.redhat.com/ubi8/ubi-minimal:latest
+#FROM registry.access.redhat.com/ubi8/ubi-minimal:latest
+FROM fedora:latest
 
 ENV TEST=/usr/local/bin/demo-scorecard-tests \
     USER_UID=1001 \
